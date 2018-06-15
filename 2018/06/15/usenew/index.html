@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="哲学," />
+  <meta name="keywords" content="javacript," />
 
 
 
@@ -79,18 +79,22 @@
 
 
 
-<meta name="description" content="最近在阅读赵林老师的《西方哲学史讲演录》，这一系列的哲学随笔，都是读书的笔记，凭着弱小的记忆力和浅薄的理解，重新梳理出一篇篇随笔，加深一下理解和记忆，也不枉曾经读过。  柏拉图柏拉图（公元前427年—公元前347年）是古希腊的伟大哲学家，苏格拉底的学生，苏格拉底一生述而不作，其思想基本上由柏拉图等弟子整理。柏拉图是客观唯心主义的创始人，其思想是早期的形而上学，包括理念论和哲学治国（理想国">
-<meta name="keywords" content="哲学">
+<meta name="description" content="起初，是神创造了天地，神说要有光，就有了光…，上帝靠着他自己的话语和能力，从无中生有，上帝到底是怎么实现的呢？这个是属于隐秘的事，我们无从得知。但是，我们在用js搬砖的过程中，哦，不！是改变世界的过程中，也经常只要一new就能new出来一个对象，那么这个new的过程中发生了什么呢？今天我们就来探讨一下。 在这之前我们先简单了解一下函数和原型链 函数和构造函数函数和构造函数有什么区别呢？ 没区">
+<meta name="keywords" content="javacript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="柏拉图的理念世界">
-<meta property="og:url" content="http://yoursite.com/2018/05/29/idealism/index.html">
+<meta property="og:title" content="new的时候发生了什么？">
+<meta property="og:url" content="http://yoursite.com/2018/06/15/usenew/index.html">
 <meta property="og:site_name" content="YangZhong&#39;s Notes">
-<meta property="og:description" content="最近在阅读赵林老师的《西方哲学史讲演录》，这一系列的哲学随笔，都是读书的笔记，凭着弱小的记忆力和浅薄的理解，重新梳理出一篇篇随笔，加深一下理解和记忆，也不枉曾经读过。  柏拉图柏拉图（公元前427年—公元前347年）是古希腊的伟大哲学家，苏格拉底的学生，苏格拉底一生述而不作，其思想基本上由柏拉图等弟子整理。柏拉图是客观唯心主义的创始人，其思想是早期的形而上学，包括理念论和哲学治国（理想国">
+<meta property="og:description" content="起初，是神创造了天地，神说要有光，就有了光…，上帝靠着他自己的话语和能力，从无中生有，上帝到底是怎么实现的呢？这个是属于隐秘的事，我们无从得知。但是，我们在用js搬砖的过程中，哦，不！是改变世界的过程中，也经常只要一new就能new出来一个对象，那么这个new的过程中发生了什么呢？今天我们就来探讨一下。 在这之前我们先简单了解一下函数和原型链 函数和构造函数函数和构造函数有什么区别呢？ 没区">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-15T02:54:26.992Z">
+<meta property="og:image" content="http://yoursite.com/imgs/Human.png">
+<meta property="og:image" content="http://yoursite.com/imgs/sanpang.png">
+<meta property="og:image" content="http://yoursite.com/imgs/coder.png">
+<meta property="og:updated_time" content="2018-06-15T08:04:05.976Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="柏拉图的理念世界">
-<meta name="twitter:description" content="最近在阅读赵林老师的《西方哲学史讲演录》，这一系列的哲学随笔，都是读书的笔记，凭着弱小的记忆力和浅薄的理解，重新梳理出一篇篇随笔，加深一下理解和记忆，也不枉曾经读过。  柏拉图柏拉图（公元前427年—公元前347年）是古希腊的伟大哲学家，苏格拉底的学生，苏格拉底一生述而不作，其思想基本上由柏拉图等弟子整理。柏拉图是客观唯心主义的创始人，其思想是早期的形而上学，包括理念论和哲学治国（理想国">
+<meta name="twitter:title" content="new的时候发生了什么？">
+<meta name="twitter:description" content="起初，是神创造了天地，神说要有光，就有了光…，上帝靠着他自己的话语和能力，从无中生有，上帝到底是怎么实现的呢？这个是属于隐秘的事，我们无从得知。但是，我们在用js搬砖的过程中，哦，不！是改变世界的过程中，也经常只要一new就能new出来一个对象，那么这个new的过程中发生了什么呢？今天我们就来探讨一下。 在这之前我们先简单了解一下函数和原型链 函数和构造函数函数和构造函数有什么区别呢？ 没区">
+<meta name="twitter:image" content="http://yoursite.com/imgs/Human.png">
 
 
 
@@ -120,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/29/idealism/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/06/15/usenew/"/>
 
 
 
 
 
-  <title>柏拉图的理念世界 | YangZhong's Notes</title>
+  <title>new的时候发生了什么？ | YangZhong's Notes</title>
   
 
 
@@ -253,7 +257,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/29/idealism/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/15/usenew/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="YangZhong">
@@ -270,7 +274,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">柏拉图的理念世界</h1>
+          <h1 class="post-title" itemprop="name headline">new的时候发生了什么？</h1>
         
 
         <div class="post-meta">
@@ -282,8 +286,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-29T11:10:39+08:00">
-                2018-05-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-06-15T14:17:24+08:00">
+                2018-06-15
               </time>
             
 
@@ -305,8 +309,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
                   </a>
                 </span>
 
@@ -342,29 +346,36 @@
       
 
       
-        <blockquote>
-<p>最近在阅读赵林老师的《西方哲学史讲演录》，这一系列的哲学随笔，都是读书的笔记，凭着弱小的记忆力和浅薄的理解，重新梳理出一篇篇随笔，加深一下理解和记忆，也不枉曾经读过。</p>
-</blockquote>
-<h3 id="柏拉图"><a href="#柏拉图" class="headerlink" title="柏拉图"></a>柏拉图</h3><p>柏拉图（公元前427年—公元前347年）是古希腊的伟大哲学家，苏格拉底的学生，苏格拉底一生述而不作，其思想基本上由柏拉图等弟子整理。柏拉图是客观唯心主义的创始人，其思想是早期的形而上学，包括理念论和哲学治国（理想国）。</p>
-<h3 id="理念论"><a href="#理念论" class="headerlink" title="理念论"></a>理念论</h3><p>柏拉图把世界分为：理念世界、原始物质、感性世界。</p>
-<p>一个杯子是如何产生的？首先，制作杯子的人要有一个杯子的原型或者图纸，然后按照这个原型用材质制造出杯子。柏拉图就把原型称为理念。</p>
-<p>但是，理念不是有形质的东西，它是一种事物存在的实质，逻各斯，也可以理解为共相，而每一个具体的物质都是殊相。</p>
-<p>理念不止一种，从低级到高级：</p>
-<ul>
-<li>自然物理念（山河湖海等）</li>
-<li>数理理念（数学图形等）</li>
-<li>哲学理念（抽象概念，理念的理念）</li>
-</ul>
-<p>这样，不同的理念，构成不同的事物。</p>
-<p>感性世界是最低级的，就是我们肉眼能看到的、有感觉的事物；</p>
-<p>要形成有感觉的事物，只有理念是不够的，理念只是提供形式和动力，还需要有物料，原始物质就是构成感性世界的质料，这样，有质料，有形式，有动力就构成了这个可见世界。</p>
-<p>所以，柏拉图认为一切的感性事物都是理念的分有和模仿，那么艺术品就是对理念的分有的模仿，所以，柏拉图认为艺术品是毫无价值的。</p>
+        <p>起初，是神创造了天地，神说要有光，就有了光…，上帝靠着他自己的话语和能力，从无中生有，上帝到底是怎么实现的呢？这个是属于隐秘的事，我们无从得知。但是，我们在用js搬砖的过程中，哦，不！是改变世界的过程中，也经常只要一<code>new</code>就能<code>new</code>出来一个对象，那么这个<code>new</code>的过程中发生了什么呢？今天我们就来探讨一下。</p>
+<p>在这之前我们先简单了解一下函数和原型链</p>
+<h4 id="函数和构造函数"><a href="#函数和构造函数" class="headerlink" title="函数和构造函数"></a>函数和构造函数</h4><p>函数和构造函数有什么区别呢？</p>
+<p>没区别（逗我玩呢？）。要说区别就是一般构造函数一般都是大驼峰命名，表明这是一个构造函数，用来new出来对象的。</p>
+<p>函数创建时默认会有一个<code>prototype</code>属性，指向一个对象，被称为函数的原型对象，原型对象默认会有一个<code>constructor</code>属性，这个属性的值就是原函数。</p>
+<p>不信请看代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 首先创建一个函数，并给他加一个属性name</span><br><span class="line">function Human(age, interest) &#123;</span><br><span class="line">  this.age = age;</span><br><span class="line">  this.interest = interest;</span><br><span class="line">&#125;</span><br><span class="line">// 打印出这个函数(对象)</span><br><span class="line">Human.prototype.constructor === Human</span><br><span class="line">// true</span><br></pre></td></tr></table></figure>
+<p><img src="/imgs/Human.png" alt="Human"></p>
+<h4 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h4><p>刚刚我们创造了一个人类的构造函数，下面我们新建一个实例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">const sanpang = new Human(&apos;不知道&apos;, &apos;独裁&apos;)</span><br><span class="line">// 打印出来</span><br><span class="line">console.log(sanpang)</span><br><span class="line">// 咦，好像有一个__proto__ (chrome下)属性，跟刚才的Human.prototype有点像</span><br><span class="line">sanpang.__proto__ === Human.prototype</span><br><span class="line">// true</span><br></pre></td></tr></table></figure>
+<p><img src="/imgs/sanpang.png" alt="sanpang"></p>
 <blockquote>
-<p>古希腊人在哲学上追问世界本原问题时，会默认假定世界有一个起点和终点，否则，这种追问将永远没有答案和无聊，所以我们讨论理念论是不会追问，理念从哪里来？质料从哪里来？</p>
+<p><code>Human</code>类（其实js没有类的概念，但是为了方便理解，我们就把这个构造函数，称为类）和实例之间是共享<code>Human.prototype</code>这个对象的。</p>
 </blockquote>
-<h3 id="洞喻"><a href="#洞喻" class="headerlink" title="洞喻"></a>洞喻</h3><p>柏拉图在理想国中写了一个比喻，来说明自己的思想：</p>
-<p>有一个洞穴式的地下室，一条长长的通道通向外面，有微弱的阳光从通道里照进来。有一些囚徒住在洞穴中，头颈和腿脚都被绑着，不能走动也不能转头，只能朝前看着洞穴后壁。在他们背后的上方，远远燃烧着一个火炬。在火炬和人的中间有一条隆起的道路，同时有一堵低墙。在这堵墙的后面，向着火光的地方，又有些别的人。他们手中拿着各色各样的假人或假兽，把它们高举过墙，让他们做出动作，这些人时而交谈，时而又不做声。于是，这些囚徒只能看见投射在他们面前的墙壁上的影像。他们把这些影像当作真实的东西，他们将回声当成影像所说的话。此时，有一个囚徒被解除了桎梏，被迫突然站起来，可以转头环视，他发现，原来他们看到的只是真实事物的影子，墙上才是真实的事物，于是他走出了洞穴，这时候他发现，原来墙上的不是真实的事物，只是真实的事物的模仿物。</p>
-<h3 id="理想国"><a href="#理想国" class="headerlink" title="理想国"></a>理想国</h3><p>柏拉图通过他的著作《理想国》，表达他的政治观念：最适合治理城邦的君主应该是一个有美德，懂哲学的人，所以，只有一个真正的哲学家才能治理好国家，但是这个理想一直没有实现，直到古罗马帝国皇帝奥勒留，他即是一个哲学家，也是一个君主，算是实现了柏拉图的理想，然而，讽刺的是，奥勒留恰恰是一个消极避世的斯多葛派，一个渴望归隐的圣人。</p>
+<p>我们来测试一下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//首先给Human类的原型对象增加一个属性：</span><br><span class="line">Human.prototype.creator = &apos;God&apos;;</span><br><span class="line">console.log(sanpang.creator) // God</span><br><span class="line">// 给Human类的原型对象增加一个方法</span><br><span class="line">Human.prototype.speek = function() &#123;</span><br><span class="line">  console.log(&apos;hello, world!&apos;)</span><br><span class="line">&#125;</span><br><span class="line">sanpang.speek() //hello, world!</span><br></pre></td></tr></table></figure>
+<p>那也就是说，改变了<code>Human.prototype</code>，他的实例对象都会改变。这些定义在<code>Human.prototype</code>上的方法和属性，称为<em>原型方法和属性</em>，一般是一些公用的，不需要为每个实例都赋予的属性，这样会节省一些内存开支。</p>
+<p>对于<em>实例方法和属性</em>，当然是定义在构造函数上的了。比如我们一开始定义的属性<code>interest</code>和<code>age</code>，每个实例都会保存一份。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">const trunp = new Human(72, &apos;和平&apos;)</span><br><span class="line">trup.interest = &apos;世界警察&apos;</span><br><span class="line">console.log(trup.interest) // 世界警察</span><br><span class="line">console.log(sanpang.interest) // 独裁</span><br></pre></td></tr></table></figure>
+<p>所以，其实<code>类</code>和<code>实例</code>之间并没有直接的联系，仅仅是因为共享了原型对象，如果原型对象又是另外一个类的实例，那么原型对象就共享了另一个类的原型对象，一直往上，直到对象<code>Object</code>。</p>
+<p>等等，所以new 的时候发生了什么？？</p>
+<h4 id="new的过程"><a href="#new的过程" class="headerlink" title="new的过程"></a>new的过程</h4><ul>
+<li>创建一个新的对象</li>
+<li>继承或者共享构造函数的prototype对象</li>
+<li>为这个新的对象添加属性（执行构造函数中的代码）</li>
+<li>如果构造函数返回了一个“对象”（包括数组，函数），那么这个对象会取代整个new出来的结果。如果构造函数没有返回对象，那么new出来的结果为步骤1创建的对象</li>
+</ul>
+<p>所以，我们可以模拟一下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">const getClass = function (fn, ...args) &#123;</span><br><span class="line">  // 创建一个新的对象</span><br><span class="line">  var o = &#123;&#125;</span><br><span class="line">  // 共享构造函数的prototype对象</span><br><span class="line">  o.__proto__ = fn.prototype;</span><br><span class="line">  // 为新对象添加实例属性</span><br><span class="line">  const f = fn.apply(o, ...args)</span><br><span class="line">  // 返回实例对象</span><br><span class="line">  return typeof f === &apos;object&apos; ? f : o</span><br><span class="line">&#125;</span><br><span class="line">const coder = getClass(Human, [&apos;27&apos;, &apos;music&apos;])</span><br></pre></td></tr></table></figure>
+<p><img src="/imgs/coder.png" alt="coder"></p>
 
       
     </div>
@@ -382,7 +393,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/哲学/" rel="tag"># 哲学</a>
+            <a href="/tags/javacript/" rel="tag"># javacript</a>
           
         </div>
       
@@ -395,8 +406,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/23/Hello-World/" rel="next" title="Hello World!">
-                <i class="fa fa-chevron-left"></i> Hello World!
+              <a href="/2018/05/29/idealism/" rel="next" title="柏拉图的理念世界">
+                <i class="fa fa-chevron-left"></i> 柏拉图的理念世界
               </a>
             
           </div>
@@ -404,10 +415,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/06/15/usenew/" rel="prev" title="new的时候发生了什么？">
-                new的时候发生了什么？ <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -559,7 +566,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#柏拉图"><span class="nav-number">1.</span> <span class="nav-text">柏拉图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#理念论"><span class="nav-number">2.</span> <span class="nav-text">理念论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#洞喻"><span class="nav-number">3.</span> <span class="nav-text">洞喻</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#理想国"><span class="nav-number">4.</span> <span class="nav-text">理想国</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#函数和构造函数"><span class="nav-number">1.</span> <span class="nav-text">函数和构造函数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#原型链"><span class="nav-number">2.</span> <span class="nav-text">原型链</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#new的过程"><span class="nav-number">3.</span> <span class="nav-text">new的过程</span></a></li></ol></div>
             
 
           </div>
