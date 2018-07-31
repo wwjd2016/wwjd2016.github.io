@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "YangZhong的个人博客"
+keywords: "MuYi的个人博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -361,7 +361,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: YangZhong
+  shortname: MuYi
   count: true
 
 # Hypercomments
